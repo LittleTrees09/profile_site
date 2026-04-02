@@ -3,7 +3,7 @@
 A personal profile website currently under development.
 
 ## Status
-🚧 This project is still in progress.
+This project is still in progress.
 
 ## About
 This website showcases personal information and projects.
