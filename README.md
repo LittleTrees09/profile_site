@@ -1,15 +1,20 @@
 # Profile Site
 
-A personal profile website currently under development.
+This project is a personal portfolio site focused on documenting all of my courses.
 
-## Status
-This project is still in progress.
+## Purpose
+The goal of this website is to create a clear, organized portfolio of every course I have taken.
 
-## About
-This website showcases personal information and projects.
+## What This Site Includes
+- A dedicated section for each course.
+- A description of the course content, topics, and key learnings.
+- My personal experience for each course, including reflections, challenges, and growth.
 
-## Getting Started
-Instructions coming soon.
+## Current Status
+This site is currently in development and will continue to be updated as I complete more courses.
 
-## License
-Add your license here.
+## Future Updates
+Planned improvements include:
+- Better visual organization for course entries.
+- Additional media or project examples tied to each course.
+- Ongoing updates as new coursework is completed.
