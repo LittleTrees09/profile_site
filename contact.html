@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <main class="container">
+        <section class="card">
+            <h1>Contact</h1>
+            <p class="subtitle">Use the details below or send a message through the form.</p>
+
+            <div class="contact-grid">
+                <div class="info-box">
+                    <div class="label">Name</div>
+                    <div class="value">John Mikhael Santos</div>
+                </div>
+                <div class="info-box">
+                    <div class="label">Email</div>
+                    <div class="value">arellanojm09@gmail.com</div>
+                </div>
+                <div class="info-box">
+                    <div class="label">Phone</div>
+                    <div class="value">[+63 962 674 4791]</div>
+                </div>
+                <div class="info-box">
+                    <div class="label">Location</div>
+                    <div class="value">Marikina City, Philippines</div>
+                </div>
+            </div>
+
+            <h2>Send a Message</h2>
+            <form action="[YOUR_FORM_ENDPOINT_OR_MAILTO]" method="post">
+                <div>
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your name" required />
+                </div>
+
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="you@example.com" required />
+                </div>
+
+                <div>
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" placeholder="How can I help?" />
+                </div>
+
+                <div>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Write your message..." required></textarea>
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <footer>
+                [Optional note: response time, availability, social links, etc.]
+            </footer>
+        </section>
+    </main>
+</body>
+</html>
