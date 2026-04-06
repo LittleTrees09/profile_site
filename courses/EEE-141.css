@@ -1,0 +1,66 @@
+
+:root {
+    --bg: #0f172a;
+    --card: #111827;
+    --text: #e5e7eb;
+    --muted: #94a3b8;
+    --accent: #38bdf8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, var(--bg), #1e293b);
+    color: var(--text);
+    min-height: 100vh;
+    line-height: 1.6;
+}
+
+header,
+main,
+footer {
+    width: min(900px, 92%);
+    margin: 0 auto;
+}
+
+header {
+    padding: 2rem 0 1rem;
+}
+
+nav a {
+    color: var(--muted);
+    text-decoration: none;
+    margin-right: 1rem;
+}
+
+nav a:hover {
+    color: var(--accent);
+}
+
+.card {
+    background: rgba(17, 24, 39, 0.9);
+    border: 1px solid rgba(148, 163, 184, 0.2);
+    border-radius: 14px;
+    padding: 1.25rem;
+    margin: 1rem 0;
+}
+
+h1,
+h2 {
+    margin-bottom: 0.6rem;
+}
+
+p {
+    color: var(--muted);
+}
+
+footer {
+    padding: 1.5rem 0 2rem;
+    color: var(--muted);
+    font-size: 0.95rem;
+}
